@@ -1,0 +1,54 @@
+.goban-pane {
+    -fx-background-size: 100% 100%;
+}
+
+.button {
+    -fx-font-size: 30px;
+    -fx-background-color: #faf3d2;
+    -fx-text-fill: #db0000;
+    -fx-padding: 5px;
+    -fx-border-color: #d0a482;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+.root {
+    -fx-background-color: #e6d1bc;
+}
+
+.win-text {
+    -fx-font-size: 48px;
+    -fx-fill: white;
+    -fx-stroke: black;
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 3.0;
+    -fx-padding: 15px;
+    -fx-alignment: center;
+    -fx-translate-y: -50;
+    -fx-opacity: 0;
+}
+
+.menu-pane {
+    -fx-background-image: url('main_menu_background.png');
+    -fx-background-position: center;
+}
+
+.menu-rectangle {
+    -fx-arc-height: 30.0;
+    -fx-arc-width: 30.0;
+    -fx-fill: #fffbf3;
+    -fx-stroke: #d0a482;
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 3.0;
+}
+
+.nickname-text-field {
+    -fx-font-size: 24px;
+    -fx-background-color: #faf3d2;
+    -fx-border-color: #d0a482;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-text-fill: red;
+}
